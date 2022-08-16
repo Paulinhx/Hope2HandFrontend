@@ -1,0 +1,291 @@
+.logoIcon {
+  position: relative;
+  width: 416px;
+  height: 208px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.aboutUsP,
+.cOMPANYH4,
+.contactUsP,
+.legalInformationP {
+  margin: 0;
+  position: absolute;
+  line-height: 20px;
+  display: inline-block;
+  height: 28px;
+}
+.cOMPANYH4 {
+  font-weight: 700;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  font-family: inherit;
+  width: 176px;
+}
+.aboutUsP,
+.contactUsP,
+.legalInformationP {
+  top: 48px;
+  left: 0.5px;
+  font-weight: 500;
+  width: 87px;
+}
+.contactUsP,
+.legalInformationP {
+  top: 81px;
+  width: 153px;
+}
+.contactUsP {
+  top: 114px;
+  width: 103px;
+}
+.companyDiv {
+  position: relative;
+  width: 153px;
+  height: 142px;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+.findAHelper,
+.hELPCENTERH4,
+.howToHost,
+.whyVolunteeringP {
+  margin: 0;
+  position: absolute;
+  line-height: 20px;
+  display: inline-block;
+  height: 28px;
+}
+.hELPCENTERH4 {
+  font-weight: 700;
+  top: 0;
+  left: -0.41px;
+  font-size: 18px;
+  font-family: inherit;
+  width: 153px;
+}
+.findAHelper,
+.howToHost,
+.whyVolunteeringP {
+  left: 0.09px;
+  font-weight: 500;
+}
+.findAHelper {
+  top: 48px;
+  width: 132px;
+  cursor: pointer;
+}
+.howToHost,
+.whyVolunteeringP {
+  top: 81px;
+  width: 153px;
+}
+.whyVolunteeringP {
+  top: 114px;
+  width: 172px;
+}
+.helpCenterDiv {
+  position: relative;
+  width: 153px;
+  height: 149px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cONTACTINFOH4,
+.emailContacthope2handio {
+  margin: 0;
+  line-height: 20px;
+  display: inline-block;
+}
+.cONTACTINFOH4 {
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: -0.27px;
+  font-size: inherit;
+  font-family: inherit;
+  width: 148.46px;
+  height: 28px;
+}
+.emailContacthope2handio {
+  position: relative;
+  font-weight: 500;
+  width: 285px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.contactItemsDiv {
+  position: absolute;
+  top: 49px;
+  left: -0.27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  font-size: 16px;
+}
+.fbIcon,
+.instaIcon,
+.linkedinIcoonIcon,
+.twitterIcon {
+  position: absolute;
+  height: 63.16%;
+  width: 12.57%;
+  top: 18.42%;
+  right: 30.89%;
+  bottom: 18.42%;
+  left: 56.54%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.instaIcon:hover,
+.linkedinIcoonIcon:hover,
+.twitterIcon:hover {
+  background-color: #908db9;
+}
+.fbIcon,
+.linkedinIcoonIcon,
+.twitterIcon {
+  right: 82.72%;
+  left: 4.71%;
+}
+.linkedinIcoonIcon,
+.twitterIcon {
+  height: 57.89%;
+  width: 14.14%;
+  top: 21.05%;
+  right: 56.02%;
+  bottom: 21.05%;
+  left: 29.84%;
+}
+.linkedinIcoonIcon {
+  height: 63.16%;
+  width: 12.57%;
+  top: 18.42%;
+  right: 5.76%;
+  bottom: 18.42%;
+  left: 81.68%;
+}
+.socialMediaLinks {
+  position: absolute;
+  top: 165px;
+  left: -9px;
+  width: 185.33px;
+  height: 38px;
+  overflow: hidden;
+}
+.contactInfoDiv {
+  position: relative;
+  width: 285px;
+  height: 203px;
+  flex-shrink: 0;
+  z-index: 2;
+  font-size: 18px;
+}
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 48px;
+  left: 186.5px;
+  background-color: #908db9;
+  width: 1px;
+  height: 101px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.rectangleDiv1 {
+  left: 407.5px;
+  z-index: 4;
+}
+.footerlinksMain,
+.footermainSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerlinksMain {
+  position: relative;
+  gap: 68px;
+  text-align: left;
+  font-size: 16px;
+  color: #484848;
+  font-family: Montserrat;
+}
+.footermainSection {
+  gap: 70px;
+}
+.hope2HandAllRightsReserve {
+  margin: 0;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.withSpan {
+  font-size: 18px;
+}
+.createdWithLoveByTheThird {
+  margin: 0;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: right;
+  display: inline-block;
+  font-size: 16px;
+}
+.copyrightsAddress,
+.footer {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+}
+.copyrightsAddress {
+  border-top: 2px solid #e0e2e6;
+  border-right: 0 solid #e0e2e6;
+  border-bottom: 0 solid #e0e2e6;
+  border-left: 0 solid #e0e2e6;
+  position: relative;
+  flex-direction: row;
+  padding: 12px 82px;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 18px;
+  color: #484848;
+  font-family: Montserrat;
+}
+.footer {
+  border-radius: 0 0 12px 12px;
+  background-color: #f5eacd;
+  flex-direction: column;
+  padding: 40px 0 28px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 61px;
+}
+@media screen and (max-width: 1200px) {
+  .footermainSection {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .rectangleDiv,
+  .rectangleDiv1 {
+    display: none;
+  }
+  .footerlinksMain {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 428px) {
+  .copyrightsAddress {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

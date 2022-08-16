@@ -1,0 +1,212 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.textDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 30.5px);
+  right: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #342e37;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.subheadDiv {
+  position: absolute;
+  top: 68px;
+  left: 32px;
+  width: 307px;
+  height: 61px;
+}
+.inputTextField {
+  border: 0;
+  background-color: transparent;
+}
+.fieldDiv,
+.selectDiv {
+  position: absolute;
+  top: 133px;
+  left: 35.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selectDiv {
+  top: 237px;
+  align-items: flex-end;
+}
+.autocompleteStandard,
+.autocompleteStandard1 {
+  position: absolute;
+  top: 303px;
+  left: 35.5px;
+}
+.autocompleteStandard1 {
+  top: 369px;
+}
+.datePickerDiv {
+  flex: 1;
+}
+.fieldsDiv {
+  position: absolute;
+  top: 482px;
+  left: 35.5px;
+  width: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.availabilityDiv,
+.jobInformationForm,
+.usedToProposeJobOffersOr {
+  font-weight: 600;
+  position: absolute;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Montserrat;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.availabilityDiv {
+  top: 435px;
+  left: 32.5px;
+  color: #9a9ea5;
+  width: 177px;
+  height: 38px;
+}
+.jobInformationForm,
+.usedToProposeJobOffersOr {
+  margin: 0;
+  top: 29px;
+  left: 35px;
+  color: #342e37;
+  width: 307px;
+}
+.usedToProposeJobOffersOr {
+  top: 60px;
+  left: 33px;
+  letter-spacing: -0.04em;
+  line-height: 16px;
+  font-weight: 300;
+  width: 314px;
+  height: 29px;
+}
+.userDataForm {
+  position: absolute;
+  top: calc(50% - 396px);
+  left: calc(50% - 254px);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e2e4e5;
+  box-sizing: border-box;
+  width: 508px;
+  height: 674px;
+}
+.buttonIconGhostOff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.captionText,
+.linkP {
+  margin: 0;
+  position: absolute;
+  top: 4px;
+  left: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+.linkP {
+  left: 141px;
+  font-weight: 500;
+  color: #908db9;
+}
+.agreementDiv {
+  position: absolute;
+  top: 766px;
+  left: 0;
+  width: 256px;
+  height: 32px;
+}
+.step3Form {
+  position: relative;
+  width: 508px;
+  height: 858px;
+  flex-shrink: 0;
+}
+.sendRequestB {
+  position: absolute;
+  width: 80.51%;
+  top: 18px;
+  right: 9.97%;
+  left: 9.52%;
+  font-size: 16px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  height: 24px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #908db9;
+  position: relative;
+  border-radius: 40px;
+  width: 220.7px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.jobFormSection {
+  position: relative;
+  border-radius: 12px;
+  background-color: #f5eacd;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 56px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}

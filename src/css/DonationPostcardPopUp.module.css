@@ -1,0 +1,129 @@
+.yourDonationIs {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.yourDonationIsSupporting {
+  position: absolute;
+  top: 48px;
+  left: calc(50% - 318px);
+  line-height: 33px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 635px;
+  height: 54px;
+  text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.image10Icon,
+.image11Icon,
+.image9Icon {
+  position: absolute;
+  top: 537px;
+  left: 112px;
+  width: 784px;
+  height: 130px;
+  object-fit: cover;
+}
+.image11Icon,
+.image9Icon {
+  top: 152px;
+  width: 467px;
+  cursor: pointer;
+}
+.image11Icon {
+  top: 341px;
+  width: 482px;
+  height: 133px;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  height: 49.91%;
+  width: 100%;
+  top: 35.25%;
+  right: 0;
+  bottom: 14.83%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 14.6%;
+  width: 17.47%;
+  top: 43.96%;
+  right: 19.98%;
+  bottom: 41.44%;
+  left: 62.55%;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  top: 25.07%;
+  right: 62.55%;
+  bottom: 60.33%;
+  left: 19.98%;
+}
+.vectorIcon3 {
+  height: 48.05%;
+  width: 100%;
+  top: 0.33%;
+  right: -0.01%;
+  bottom: 51.62%;
+  left: 0.01%;
+}
+.logoTitleB {
+  position: absolute;
+  height: 9.4%;
+  width: 99.36%;
+  top: 85.07%;
+  right: 0.75%;
+  bottom: 5.54%;
+  left: -0.1%;
+  display: inline-block;
+}
+.logoMainDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 196px;
+  overflow: hidden;
+}
+.image7Icon,
+.logoDiv {
+  position: absolute;
+  cursor: pointer;
+}
+.logoDiv {
+  top: 152px;
+  left: 736px;
+  width: 160px;
+  height: 196px;
+  text-align: center;
+  font-size: 20px;
+  color: #342e37;
+}
+.image7Icon {
+  top: 377px;
+  left: 652px;
+  width: 244px;
+  height: 123px;
+  object-fit: cover;
+}
+.donationPostcardPopUpDiv {
+  position: relative;
+  border-radius: 10px;
+  background-color: #ead49c;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  width: 1008px;
+  height: 719px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: 40px;
+  color: #908db9;
+  font-family: Montserrat;
+}

@@ -1,0 +1,125 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.wannaVolunteerWithUs {
+  margin: 0;
+  font-weight: 700;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.becomeAVolunteer {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 21px 29px;
+  background-color: #908db9;
+  border-radius: 40px;
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.frameDiv,
+.frameDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameDiv1 {
+  align-self: stretch;
+  align-items: center;
+  gap: 76px;
+}
+.frameDiv {
+  position: absolute;
+  width: calc(100% - 676.17px);
+  top: 65px;
+  right: 593.17px;
+  left: 83px;
+  border-radius: 23px;
+  background-color: #ead49c;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  height: 354px;
+  padding: 59px 55px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 202px);
+  right: -12.92px;
+  border-radius: 45px;
+  width: 606px;
+  height: 393px;
+}
+.comeJoinUsInOurMissionTo {
+  margin: 0;
+  font-weight: 700;
+  position: absolute;
+  top: calc(50% - 94px);
+  left: calc(50% - 172px);
+  font-size: inherit;
+  line-height: 52px;
+  font-family: inherit;
+  display: inline-block;
+  width: 344px;
+  height: 152px;
+  text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.frameDiv2 {
+  position: absolute;
+  top: 40px;
+  right: 83.17px;
+  width: 606px;
+  height: 404px;
+  font-size: 30px;
+  color: #fff;
+}
+.volunteerSection {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  height: 484px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 38px;
+  color: #908db9;
+  font-family: Montserrat;
+}

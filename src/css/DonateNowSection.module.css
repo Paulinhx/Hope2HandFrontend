@@ -1,0 +1,86 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.donateNowAndWeWillMakeSu,
+.youWantToDonateAndHelpOu {
+  position: absolute;
+  top: 85px;
+  left: 104px;
+  display: inline-block;
+  width: 315px;
+}
+.youWantToDonateAndHelpOu {
+  top: 33px;
+  font-weight: 600;
+}
+.makeADonation {
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 21px 29px;
+  background-color: #908db9;
+  position: absolute;
+  top: 527px;
+  left: 152px;
+  border-radius: 40px;
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.bgArticle {
+  position: relative;
+  border-radius: 10px;
+  width: 524px;
+  height: 568px;
+  flex-shrink: 0;
+  background-image: url(../../public/bg@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 16px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+.donateNowSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 97px 100px 51px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}

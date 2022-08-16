@@ -1,0 +1,114 @@
+.menuH4 {
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  width: 139px;
+  height: 33px;
+  flex-shrink: 0;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 0;
+  right: 0.01px;
+  width: 41.99px;
+  height: 41.99px;
+}
+.lineIcon,
+.lineIcon1 {
+  position: absolute;
+  top: 13.55px;
+  right: 13.57px;
+  width: 14.17px;
+  height: 14.17px;
+}
+.lineIcon1 {
+  right: 14.28px;
+}
+.closeButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameDiv {
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUsButton,
+.contactUsButton,
+.findSupportButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #484848;
+  text-align: center;
+  display: inline-block;
+  width: 113px;
+}
+.aboutUsButton:hover,
+.contactUsButton:hover,
+.findSupportButton:hover {
+  color: #908db9;
+}
+.aboutUsButton,
+.contactUsButton {
+  width: 81px;
+}
+.contactUsButton {
+  width: 98px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.burgerMenuPopUpDiv,
+.headerNavigations {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.headerNavigations {
+  text-decoration: none;
+  width: 154px;
+  height: 345px;
+  flex-shrink: 0;
+  padding: 49px 0 0;
+  justify-content: flex-start;
+  gap: 46px;
+}
+.burgerMenuPopUpDiv {
+  position: relative;
+  border-radius: 10px;
+  background-color: #ead49c;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  padding: 39px 30px 0;
+  justify-content: flex-end;
+  gap: 20px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: 20px;
+  color: #484848;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .headerNavigations {
+    display: none;
+  }
+}

@@ -1,0 +1,195 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.welcomeP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.registerHereP {
+  margin: 0;
+}
+.welcomeH1 {
+  margin: 0;
+  font-weight: 700;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.offerAccommodationAnd {
+  font-weight: 600;
+}
+.offerAccommodationAndBecome {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.becomeAVolunteer {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 21px 29px;
+  background-color: #908db9;
+  border-radius: 40px;
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button1:hover,
+.button:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.becomeVolunteerFrameArticle,
+.cardBecomeVolunteerArticle {
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Montserrat;
+}
+.cardBecomeVolunteerArticle {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: #ead49c;
+  padding: 72px 66px 23px;
+  gap: 48px;
+  text-align: left;
+  font-size: 20px;
+  color: #342e37;
+}
+.becomeVolunteerFrameArticle {
+  border-radius: 10px;
+  background-color: #f5eacd;
+  width: 626.17px;
+  flex-shrink: 0;
+  padding: 143px 108px 188px 82px;
+  gap: 136px;
+  text-align: center;
+  font-size: 50px;
+  color: #4c4446;
+}
+.descriptionDiv {
+  font-weight: 600;
+}
+.descriptionDiv,
+.descriptionDiv1 {
+  position: relative;
+  display: inline-block;
+  width: 358px;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 21px 29px;
+  background-color: #908db9;
+  border-radius: 40px;
+  width: 220px;
+  flex-direction: row;
+  justify-content: center;
+}
+.button1,
+.getHelpFrameArticle,
+.welcomeSection {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.getHelpFrameArticle {
+  flex: 1;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 97px 78px 104px;
+  justify-content: flex-start;
+  gap: 393px;
+  background-image: url(../../public/gethelpframe@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 20px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+.welcomeSection {
+  align-self: stretch;
+  border-radius: 12px;
+  flex-direction: row;
+  padding: 57px 113px;
+  justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .becomeVolunteerFrameArticle {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+  }
+  .button1 {
+    margin-top: 400px;
+  }
+  .getHelpFrameArticle {
+    margin-top: 40px;
+    background-position: center;
+    flex: unset;
+    align-self: stretch;
+  }
+  .welcomeSection {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .becomeVolunteerFrameArticle {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .button1 {
+    margin-top: 300px;
+  }
+  .welcomeSection {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}

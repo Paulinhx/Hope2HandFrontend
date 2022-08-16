@@ -1,0 +1,60 @@
+.whatDoWeDo {
+  margin: 0;
+  font-weight: 600;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  height: 65px;
+  flex-shrink: 0;
+  text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.weLiveIn {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.soOurMission {
+  margin: 0;
+}
+.weLiveInATroublesomeWorld {
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.aboutUsP {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 18px;
+}
+.aboutUsSection,
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: 24px;
+}
+.aboutUsSection {
+  height: 392px;
+  flex-shrink: 0;
+  padding: 55px 80px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+  color: #706b5d;
+  font-family: Montserrat;
+}

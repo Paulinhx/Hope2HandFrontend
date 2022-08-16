@@ -1,0 +1,158 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.cityGuideEventsTips,
+.titleH3 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.cityGuideEventsTips {
+  font-weight: 700;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+}
+.titleH3 {
+  font-weight: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.outlineDiv,
+.rightimageIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.outlineDiv {
+  border-radius: 3px;
+  background-color: #484848;
+  width: 140px;
+  height: 6px;
+}
+.rightimageIcon {
+  align-self: stretch;
+  max-width: 100%;
+  height: 492px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rightimageIcon:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.chooseTheRightInstitutionT,
+.integrationDiv {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.integrationDiv {
+  color: #9a9a9a;
+}
+.cardbottomDiv,
+.rightArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardbottomDiv {
+  align-self: stretch;
+  background-color: #ecd8a6;
+  padding: 21px 12px 29px;
+  box-sizing: border-box;
+  gap: 6px;
+}
+.rightArticle {
+  flex: 1;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  text-align: left;
+  font-size: 16px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+.middleimageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  height: 492px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cardbottomDiv1,
+.middleArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cardbottomDiv1 {
+  align-self: stretch;
+  background-color: #eedcaf;
+  padding: 21px 25px 29px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 6px;
+}
+.middleArticle {
+  flex: 1;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  align-items: flex-end;
+  text-align: left;
+  font-size: 16px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+.blogSection,
+.cardbottomDiv2,
+.cardsMain {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardbottomDiv2 {
+  background-color: #f0dfb7;
+  flex-direction: column;
+  padding: 21px 25px 29px;
+  box-sizing: border-box;
+  gap: 6px;
+}
+.blogSection,
+.cardsMain {
+  flex-direction: row;
+  gap: 3px;
+}
+.blogSection {
+  background-color: #fff;
+  flex-direction: column;
+  padding: 61px 83px;
+  box-sizing: border-box;
+  gap: 41px;
+  opacity: 0.9;
+  text-align: left;
+  font-size: 30px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .middleimageIcon,
+  .rightimageIcon {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blogSection {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}

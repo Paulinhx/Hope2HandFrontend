@@ -1,0 +1,225 @@
+.logoMainIcon,
+.logoTitleB {
+  position: relative;
+  flex-shrink: 0;
+}
+.logoMainIcon {
+  width: 62.61px;
+  height: 72.17px;
+  overflow: hidden;
+}
+.logoTitleB {
+  display: inline-block;
+  width: 92.17px;
+  height: 18.26px;
+}
+.logoDiv {
+  width: 109.17px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 9px 0 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.aboutUsButton,
+.contactUsButton,
+.findSupportButton,
+.partnersButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #484848;
+  text-align: center;
+  display: inline-block;
+  width: 137px;
+  flex-shrink: 0;
+}
+.aboutUsButton:hover,
+.contactUsButton:hover,
+.findSupportButton:hover,
+.partnersButton:hover {
+  color: #908db9;
+}
+.aboutUsButton,
+.contactUsButton,
+.partnersButton {
+  width: 96px;
+}
+.aboutUsButton,
+.contactUsButton {
+  text-align: left;
+  width: 88px;
+}
+.contactUsButton {
+  width: 109px;
+}
+.headerNavigations {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 6px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.becomeAVolunteer {
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 21px 20px;
+  background-color: #908db9;
+  border-radius: 40px;
+  width: 212px;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bxbxsUserCircleDiv {
+  position: absolute;
+  top: 1px;
+  left: 57.83px;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+}
+.signInLabel {
+  position: absolute;
+  top: 15px;
+  left: 12.83px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #9a9a9a;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+.frameButton,
+.rectangleDiv {
+  border-radius: 23px;
+  background-color: #fff;
+  height: 46px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: relative;
+  width: 102px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 53px;
+}
+.ggmenuIcon {
+  position: absolute;
+  top: 11px;
+  left: 17.33px;
+  width: 34px;
+  height: 24px;
+}
+.authBtnButton,
+.loginButtonDiv {
+  background-color: transparent;
+  width: 69px;
+  flex-shrink: 0;
+}
+.authBtnButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: relative;
+  height: 46px;
+  overflow: hidden;
+}
+.loginButtonDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.mainCTADiv {
+  width: 460px;
+  flex-shrink: 0;
+  padding: 0 38px 0 0;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.frameDiv,
+.mainCTADiv,
+.mainHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  justify-content: flex-end;
+  gap: 21px;
+}
+.mainHeaderDiv {
+  align-self: stretch;
+  background-color: #ead49c;
+  padding: 11px 0 11px 93px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 13px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .headerNavigations {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainHeaderDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .mainHeaderDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

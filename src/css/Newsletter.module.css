@@ -1,0 +1,128 @@
+.nEWSLETTERH5,
+.stayUpToDate {
+  margin: 0;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.nEWSLETTERH5 {
+  font-weight: 700;
+  font-size: inherit;
+  font-family: inherit;
+}
+.stayUpToDate {
+  font-size: 16px;
+  font-weight: 500;
+}
+.letterTitlesDiv {
+  width: 190px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.yourEmailInput {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #9a9a9a;
+  text-align: left;
+  display: inline-block;
+  z-index: 0;
+}
+.yourEmailInput:focus {
+  outline: 0;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 52px;
+  height: 52px;
+}
+.phpaperPlaneIcon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.sendBtnButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sendBtnButton:hover {
+  cursor: pointer;
+}
+.inputDiv,
+.newsletterSection {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.inputDiv {
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid #e8eaec;
+  position: relative;
+  width: 503px;
+  flex-shrink: 0;
+  padding: 16px 58px 16px 23px;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.newsletterSection {
+  align-self: stretch;
+  background-color: #ead49c;
+  padding: 24px 321px;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  font-size: 18px;
+  color: #484848;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .newsletterSection {
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inputDiv {
+    width: 100%;
+  }
+  .newsletterSection {
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .newsletterSection {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

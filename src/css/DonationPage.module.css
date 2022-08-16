@@ -1,0 +1,10 @@
+.donationPageMain {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}

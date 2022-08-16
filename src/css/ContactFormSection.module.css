@@ -1,0 +1,255 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.inputComponentTextarea {
+  border: 1px solid #d9d7d7;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #e5e5e5;
+  box-sizing: border-box;
+  position: relative;
+  width: 343px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submitButtonDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #908db9;
+  width: 220px;
+  height: 60px;
+}
+.submitDiv {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 32px);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 64px;
+  height: 24px;
+}
+.submitBtnButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 220px;
+  height: 60px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.logoMainButton:hover,
+.submitBtnButton:hover {
+  animation: 1s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.frameDiv {
+  position: absolute;
+  top: 393px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 61px;
+}
+.inputComponent {
+  border: 1px solid #d9d7d7;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #e5e5e5;
+  box-sizing: border-box;
+  position: relative;
+  width: 324px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  height: 49.91%;
+  width: 100%;
+  top: 35.25%;
+  right: 0;
+  bottom: 14.83%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 14.6%;
+  width: 17.47%;
+  top: 43.96%;
+  right: 19.98%;
+  bottom: 41.43%;
+  left: 62.55%;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  top: 25.07%;
+  right: 62.55%;
+  bottom: 60.33%;
+  left: 19.98%;
+}
+.vectorIcon3 {
+  height: 48.05%;
+  width: 100%;
+  top: 0.33%;
+  right: -0.01%;
+  bottom: 51.62%;
+  left: 0.01%;
+}
+.logoTitleB {
+  position: absolute;
+  width: 147.22%;
+  right: -23.61%;
+  bottom: -21.35px;
+  left: -23.61%;
+  font-size: 13px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #342e37;
+  text-align: center;
+  height: 38.35px;
+}
+.logoMainButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 132.57px;
+  height: 151.57px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0.9;
+}
+.contactFormH3 {
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  font-size: 40px;
+  font-family: Montserrat;
+  color: #908db9;
+  text-align: center;
+  display: inline-block;
+  width: 401px;
+  height: 60px;
+  flex-shrink: 0;
+  text-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.frameDiv1,
+.frameDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameDiv2 {
+  align-self: stretch;
+  justify-content: flex-end;
+  gap: 35px;
+}
+.frameDiv1 {
+  position: absolute;
+  top: 100.56px;
+  left: 424.5px;
+  height: 642px;
+  justify-content: flex-start;
+  gap: 325px;
+}
+.pleaseUseContactUsHere {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #9a9a9a;
+  text-align: left;
+  display: inline-block;
+}
+.frameDiv3,
+.frameDiv4,
+.inputComponent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputComponent1 {
+  border: 1px solid #d9d7d7;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #e5e5e5;
+  box-sizing: border-box;
+  position: relative;
+  width: 344px;
+  flex-direction: row;
+  padding: 20px;
+}
+.frameDiv3,
+.frameDiv4 {
+  flex-direction: column;
+  gap: 30px;
+}
+.frameDiv3 {
+  position: absolute;
+  top: 31px;
+  left: 50px;
+  gap: 37px;
+}
+.contactForm {
+  position: relative;
+  border-radius: 12px;
+  background-color: #f5eacd;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  width: 845px;
+  height: 783px;
+  flex-shrink: 0;
+}
+.contactFormSection {
+  align-self: stretch;
+  height: 825px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 100px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}

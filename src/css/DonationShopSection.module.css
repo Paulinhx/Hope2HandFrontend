@@ -1,0 +1,213 @@
+.ourOnlineDonationParticip {
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-family: inherit;
+  display: inline-block;
+  width: 529px;
+  height: 103px;
+  flex-shrink: 0;
+}
+.outlineDiv {
+  position: relative;
+  border-radius: 3px;
+  background-color: #484848;
+  width: 140px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.titleDiv,
+.topRatedSectionTitlesDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.titleDiv {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.topRatedSectionTitlesDiv {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.bgImageIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100.17%;
+  top: 0;
+  right: -0.17%;
+  bottom: 0;
+  left: 0;
+  border-radius: 16px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 0;
+}
+.subTitleP,
+.titleH4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.titleH4 {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 20px;
+  font-family: inherit;
+}
+.subTitleP {
+  font-weight: 500;
+  color: #706b5d;
+}
+.cardDescriptionDiv {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  flex-direction: column;
+  padding: 5px 21px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  z-index: 1;
+}
+.heartIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 14.75px;
+  right: 13.29px;
+  width: 28.63px;
+  height: 25.29px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cardIconDiv,
+.icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+}
+.icon {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.cardIconDiv {
+  margin: 0 !important;
+  top: 192px;
+  left: 21.12px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.cardArticle {
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 272px 0 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 82px;
+  text-align: left;
+  font-size: 16px;
+  color: #484848;
+  font-family: Montserrat;
+}
+.cardIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 192px;
+  left: 21.12px;
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 3;
+}
+.cardArticle1,
+.cardRowArticle,
+.donationShopSection,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardArticle1 {
+  flex: 1;
+  border-radius: 8px;
+  flex-direction: column;
+  padding: 272px 0 16px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 82px;
+  background-image: url(../../public/card3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 16px;
+  color: #484848;
+  font-family: Montserrat;
+}
+.cardRowArticle,
+.donationShopSection,
+.frameDiv {
+  flex-direction: row;
+  gap: 27px;
+}
+.frameDiv {
+  flex: 1;
+}
+.cardRowArticle,
+.donationShopSection {
+  align-self: stretch;
+}
+.donationShopSection {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 71px 68px 71px 94px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  gap: 35px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 30px;
+  color: #484848;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .frameDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .cardRowArticle {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardArticle,
+  .cardArticle1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameDiv {
+    flex-direction: column;
+  }
+  .donationShopSection {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}

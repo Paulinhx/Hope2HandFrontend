@@ -1,0 +1,85 @@
+.imgSeekerFormIcon {
+  position: relative;
+  border-radius: 12px 0 0 12px;
+  width: 320px;
+  height: 314px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.whatAreYouLookingFor {
+  margin: 0;
+  font-weight: 600;
+  position: relative;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #484848;
+  text-align: left;
+  display: inline-block;
+}
+.inputFormControl {
+  position: relative;
+}
+.frameDiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 41px;
+}
+.logoTitleB {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+  display: inline-block;
+  font-family: Montserrat;
+  color: #342e37;
+  text-align: center;
+  height: 18.26px;
+}
+.logoMainIcon {
+  position: absolute;
+  top: 0;
+  left: 14.78px;
+  width: 62.61px;
+  height: 72.17px;
+  overflow: hidden;
+}
+.logoDiv {
+  position: relative;
+  width: 92.17px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 94px;
+}
+.formRegistrationBgArticle,
+.profileSectionForm {
+  height: 314px;
+  display: flex;
+  justify-content: flex-start;
+}
+.formRegistrationBgArticle {
+  flex: 1;
+  border-radius: 0 12px 12px 0;
+  background-color: #ead49c;
+  flex-direction: column;
+  padding: 77px 61px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.profileSectionForm {
+  border-radius: 0 0 0 12px;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  width: 942px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+}

@@ -1,0 +1,222 @@
+.nearbyListedSocialServices {
+  margin: 0;
+  font-weight: 700;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-family: inherit;
+  display: inline-block;
+  width: 339px;
+  height: 103px;
+  flex-shrink: 0;
+}
+.outlineDiv {
+  position: relative;
+  border-radius: 3px;
+  background-color: #484848;
+  width: 140px;
+  height: 6px;
+  flex-shrink: 0;
+}
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.showOnMap {
+  margin: 0;
+  font-weight: 700;
+  position: absolute;
+  top: 33px;
+  left: 45.88px;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  width: 187.12px;
+  height: 36.92px;
+}
+.bxbxsMapPinIcon {
+  position: absolute;
+  top: 22px;
+  left: -0.12px;
+  width: 42.68px;
+  height: 48px;
+  overflow: hidden;
+}
+.mapButtonDiv {
+  position: relative;
+  width: 233px;
+  height: 70px;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-size: 25px;
+}
+.nearbySectionTitlesDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.bgImageIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100.17%;
+  top: 0;
+  right: -0.17%;
+  bottom: 0;
+  left: 0;
+  border-radius: 16px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 0;
+}
+.subTitleP,
+.titleH4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.titleH4 {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 20px;
+  font-family: inherit;
+}
+.subTitleP {
+  font-weight: 500;
+  color: #706b5d;
+}
+.cardDescriptionDiv {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  flex-direction: column;
+  padding: 5px 21px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  z-index: 1;
+}
+.heartIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 14.75px;
+  right: 13.79px;
+  width: 28.63px;
+  height: 25.29px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cardIconDiv,
+.icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+}
+.icon {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.cardIconDiv {
+  margin: 0 !important;
+  top: 192px;
+  left: 21.12px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.cardArticle,
+.cardArticle1 {
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 272px 0 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 82px;
+  text-align: left;
+  font-size: 16px;
+  color: #484848;
+  font-family: Montserrat;
+}
+.cardArticle {
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+}
+.cardArticle1 {
+  background-image: url(../../public/card2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.cardRowArticle,
+.nearbySection {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.cardRowArticle {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 27px;
+}
+.nearbySection {
+  flex-direction: column;
+  padding: 71px 68px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 35px;
+  text-align: left;
+  font-size: 30px;
+  color: #342e37;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1200px) {
+  .frameDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .cardRowArticle {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nearbySectionTitlesDiv {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .frameDiv {
+    flex-direction: column;
+  }
+  .cardArticle,
+  .cardArticle1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .nearbySection {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}

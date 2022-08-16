@@ -1,0 +1,262 @@
+.dontHaveAccount,
+.signUpButton {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+}
+.dontHaveAccount {
+  margin: 0;
+}
+.signUpButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 12px;
+  text-decoration: underline;
+  font-family: Montserrat;
+  color: #908db9;
+  text-align: center;
+}
+.loginSignupLinkDiv {
+  position: absolute;
+  top: 483px;
+  left: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  cursor: pointer;
+}
+.frameInput {
+  border: 0;
+  background-color: #fff;
+  position: relative;
+  border-radius: 3px;
+  width: 335px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.usernameFillDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.btnCheckInput {
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  width: 10px;
+  height: 10px;
+}
+.forgotPassword,
+.rememberMeP {
+  position: absolute;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rememberMeP {
+  margin: 0;
+  top: 0;
+  left: 12px;
+  width: 98px;
+}
+.forgotPassword {
+  text-decoration: underline;
+  top: 1px;
+  left: 224px;
+  color: #908db9;
+  width: 111px;
+}
+.rememberMeDiv {
+  position: relative;
+  width: 335px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: 12px;
+}
+.passwordDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.lOGINP {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.buttonLogin,
+.frameDiv,
+.usernameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  border-radius: 3px;
+  background: linear-gradient(90.53deg, #908db9, #095d6a);
+  width: 335px;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.buttonLogin,
+.usernameDiv {
+  flex-direction: column;
+}
+.buttonLogin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.usernameDiv {
+  gap: 20px;
+}
+.oRP {
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+}
+.image2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+.continueWithGoogle {
+  margin: 0;
+  position: absolute;
+  top: 1px;
+  left: 17px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #706b5d;
+  text-align: center;
+  display: inline-block;
+}
+.groupDiv {
+  position: absolute;
+  top: 10px;
+  left: 94px;
+  width: 155px;
+  height: 16px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  border-radius: 3px;
+  width: 335px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.loginFrameDiv {
+  position: absolute;
+  top: calc(50% - 155.5px);
+  left: calc(50% - 167px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 16px;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 41.99px;
+  height: 41.99px;
+}
+.closeButton,
+.lineIcon,
+.lineIcon1 {
+  position: absolute;
+  top: 13.56px;
+  right: 13.55px;
+  width: 14.17px;
+  height: 14.17px;
+}
+.closeButton,
+.lineIcon1 {
+  right: 14.26px;
+}
+.closeButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 7.08%;
+  width: 6.38%;
+  top: 7.4%;
+  right: 7.28%;
+  bottom: 85.52%;
+  left: 86.34%;
+  overflow: hidden;
+}
+.loginOrSignup {
+  margin: 0;
+  font-weight: 700;
+  position: absolute;
+  top: 58px;
+  left: 55px;
+  font-size: 20px;
+  font-family: inherit;
+  color: #484848;
+  text-align: left;
+  display: inline-block;
+  width: 323px;
+  height: 33px;
+}
+.loginWholeArticle {
+  position: relative;
+  width: 658px;
+  height: 593px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #706b5d;
+  font-family: Montserrat;
+}
+.signInPopUpDiv {
+  position: relative;
+  border-radius: 20px;
+  background-color: #f5eacd;
+  box-shadow: 0 0 8px rgba(194, 198, 204, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
